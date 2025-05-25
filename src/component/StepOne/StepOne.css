@@ -1,0 +1,15 @@
+.form-group input{
+	border: 1px solid var(--clr-border);
+	padding: 9px 13px;
+	border-radius: 7px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.form-group{
+	margin-bottom: 20px;
+	color: var(--clr-denim);
+}
+
+.form-step-label p{
+	color: var(--clr-red-errors);
+}

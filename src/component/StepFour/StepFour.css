@@ -1,0 +1,30 @@
+.plan-type{
+	margin-right: 5px;
+}
+
+.form-four-breakdown{
+	padding: 15px;
+	background-color: var(--clr-very-light-gray);
+}
+.form-four-total-price{
+	padding: 15px;
+}
+
+.form-four-plan{
+	padding-bottom: 10px;
+	border-color: var(--clr-border); 	
+}
+
+.form-redirect-step-two,
+.form-four-total-price-title,
+.form-four-addons{
+	color: var(--clr-gray);
+}
+
+.form-four-addons{
+	margin: 10px 0px;
+}
+
+.form-four-total-price-pricing{
+	color: var(--clr-purple);
+}

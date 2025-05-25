@@ -1,0 +1,66 @@
+.form-checkbox-group {
+	padding: 12px 25px;
+	border-color: var(--clr-border);
+	transition: border-color 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.form-checkbox-group:hover{
+	border-width: 1px;
+	border-color: var(--clr-purple);
+}
+
+.checkbox-title {
+	color: var(--clr-denim);
+}
+
+.checkbox-desc {
+	color: var(--clr-gray);
+}
+
+.form-checkbox-price {
+	color: var(--clr-purple);
+}
+
+/* Hide default checkbox */
+.form-checkbox {
+	display: none;
+}
+
+/* Custom checkbox wrapper */
+.form-checkbox-wrapper {
+	position: relative;
+	width: 18px;
+	height: 18px;
+	border: 1px solid var(--clr-border);
+	background-color: white;
+	border-radius: 4px;
+	transition: all 0.2s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* The checkmark (hidden by default) */
+.form-checkbox-wrapper::after {
+	content: '✔';
+	color: white;
+	font-size: 12px;
+	display: none;
+}
+
+/* When input is checked */
+.form-checkbox:checked+.form-checkbox-wrapper {
+	background-color: var(--clr-purple);
+	border-color: var(--clr-purple);
+}
+
+/* Show checkmark when checked */
+.form-checkbox:checked+.form-checkbox-wrapper::after {
+	display: block;
+}
+
+.selected-checkbox{
+	border-color: var(--clr-purple);
+	background-color: var(--clr-very-light-gray);
+}

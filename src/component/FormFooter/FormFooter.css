@@ -1,0 +1,15 @@
+.form-footer{
+	margin-bottom: 30px;
+	right: 0%;
+    padding: 0px 40px;
+	width: 100%;
+}
+
+.form-footer button{
+	background-color: var(--clr-denim);
+	color: var(--clr-white);
+}
+
+.form-footer span{
+	color: var(--clr-gray);
+}

@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    width: 800px;
+    height: 550px;
+    background-color: var(--clr-white);
+    box-shadow: 0 25px 40px -20px #00000018;
+    padding: 13px;
+}
+
+.form-content {
+    width: 100%;
+    height: 100%;
+}
+
+.form-card {
+    width: 100%;
+    height: 100%;
+}
+
+.form-menu {
+    background: url('./assets/images/bg-sidebar-desktop.svg');
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form-step-one,
+.form-step-two,
+.form-step-three,
+.form-step-four{
+    padding: 3rem;
+}
+
+.form-step-title{
+    color: var(--clr-denim);
+}
+
+.form-step-heading{
+    margin-bottom: 1.5rem;
+}
+
+.form-step-heading h3{
+    margin-bottom: 0.5rem;
+}
+
+.form-step-heading p{
+    color: var(--clr-gray);
+}
