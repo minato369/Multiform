@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-	base: import.meta.env.VITE_BASE_PAT || '/Multiform',
+	base: import.meta.env.VITE_BASE_PATH || '/Multiform',
 	plugins: [
 		react(),
 		tailwindcss()
