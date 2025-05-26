@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Sidebar.css';
+import './SideBar.css';
 
 const Sidebar = ({activeStep}) => {
 	// const [activeStep, setActiveStep] = useState(1);
